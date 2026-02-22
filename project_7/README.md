@@ -23,41 +23,43 @@ The project emphasizes **Enterprise Security Standards** by automating the creat
 
 ### 1. Initialize Terraform
 * Initialize the working directory and download the required providers (AzureRM, AzureAD).
-'
+```bash
 terraform init
-'
+```
 
 ### 2. Plan the Infrastructure
 * Generate an execution plan to preview the resources that will be created.
-'
+```bash
 terraform plan
-'
+```
 
 
 ### 3. Apply Changes
 * Deploy the infrastructure to Microsoft Azure.
-'
+```bash
 terraform apply --auto-approve
-'
+```
 
 ## :white_check_mark: Verification
 * Once the process is complete, follow these steps to verify the deployment:
 ### 1. Verify Secret in Key Vault
 * Confirm that the Service Principal secret was successfully stored:
-'
+```bash
 az keyvault secret list --vault-name <your-vault-name>
-'
+```
 
 ### 2. Connect to the Cluster
 * Download the kubeconfig file to connect via kubectl:
 
-' az aks get-credentials --resource-group <rg-name> --name <cluster-name>
-'
+```bash
+az aks get-credentials --resource-group <rg-name> --name <cluster-name>
+```
 
 ### 3. Check Node Status
 * Ensure the worker nodes are up and running:
 
-'
+```bash
 kubectl get nodes
-'
+```
+
 
