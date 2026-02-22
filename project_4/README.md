@@ -19,6 +19,8 @@ This project demonstrates how to automate user provisioning in **Microsoft Entra
 ## 🛠 Usage
 1. **Prepare Data:** Ensure `users_info.csv` exists in the project folder with columns: `first_name`, `last_name`, `department`, and `job_title`.
 2. **Authenticate:** Run `az login` with an account that has **User Administrator** or **Global Administrator** permissions.
-3. **Deploy:** ```bash
+3. **Deploy:** 
+```bash
    terraform init
    terraform apply
+```

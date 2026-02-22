@@ -19,5 +19,15 @@ The `backend "azurerm"` block connects to the infrastructure created in **Projec
 ## 🛠 Usage & Initialization
 Because the backend is now remote, you must initialize with the backend configuration:
 
-1. **Initialize:** ```bash
+1. **Initialize:** 
+```bash
    terraform init
+```
+2. **Plan changes:**
+```bash
+   terraform plan
+```
+3. **Deploy changes:**
+```bash
+   terraform apply --auto-approve
+```
