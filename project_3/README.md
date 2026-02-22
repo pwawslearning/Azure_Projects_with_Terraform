@@ -1,4 +1,4 @@
-# Project 4: High-Availability Web Cluster (VMSS & Load Balancer)
+# Project 3: High-Availability Web Cluster (VMSS & Load Balancer)
 
 This project automates the deployment of a scalable, resilient web infrastructure on Azure. It utilizes **Orchestrated Virtual Machine Scale Sets (VMSS)** sitting behind a **Standard Load Balancer**, ensuring the application can handle traffic spikes and hardware failures automatically.
 

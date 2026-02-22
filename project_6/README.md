@@ -1,4 +1,4 @@
-# Project 1: Deploying Azure Container Instances (ACI)
+# Project 6: Deploying Azure Container Instances (ACI)
 
 This project uses Terraform to deploy a serverless containerized application using **Azure Container Instances (ACI)**. It pulls a "Hello World" image from the Microsoft Container Registry and makes it accessible via a public DNS label.
 

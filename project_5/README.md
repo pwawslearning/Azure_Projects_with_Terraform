@@ -1,4 +1,4 @@
-# Project 6: Azure VNET Peering & Cross-Network Connectivity
+# Project 5: Azure VNET Peering & Cross-Network Connectivity
 
 This project demonstrates how to bridge two isolated Virtual Networks (VNETs) using **VNET Peering**. By establishing a bi-directional peer, Virtual Machines in `VNET-A` can communicate with Virtual Machines in `VNET-B` using private IP addresses as if they were on the same network.
 

@@ -1,4 +1,4 @@
-# Project 2: Azure Storage Infrastructure
+# Project 1: Azure Storage Infrastructure
 
 This project automates the creation of an **Azure Storage Account** and a **Blob Container** using Terraform. This setup is a foundational component for storing unstructured data or managing Terraform backend state files.
 

@@ -1,4 +1,4 @@
-# Project 3: Configuring Azure Remote Backend
+# Project 2: Configuring Azure Remote Backend
 
 This project focuses on operational best practices by migrating the Terraform state file from a local environment to a remote **Azure Backend**. This ensures state locking, security, and team collaboration.
 

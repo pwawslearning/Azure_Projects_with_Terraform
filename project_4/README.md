@@ -1,4 +1,4 @@
-# Project 5: Identity Automation with Microsoft Entra ID
+# Project 4: Identity Automation with Microsoft Entra ID
 
 This project demonstrates how to automate user provisioning in **Microsoft Entra ID (Azure AD)** using Terraform. Instead of manual entry, this configuration reads employee data from a source file and creates standardized user identities programmatically.
 
