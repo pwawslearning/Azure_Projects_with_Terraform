@@ -62,7 +62,7 @@ az aks get-credentials --resource-group <rg-name> --name <cluster-name>
 kubectl get nodes
 ```
 
-## :kubernetes: Deployment WebApp in Kubernetes Cluster
+## ✈️ Deployment WebApp in Kubernetes Cluster
 
 * Reference that Google provided a sample web app to simulates a bank's payment.
 
