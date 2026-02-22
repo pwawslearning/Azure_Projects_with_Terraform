@@ -62,4 +62,9 @@ az aks get-credentials --resource-group <rg-name> --name <cluster-name>
 kubectl get nodes
 ```
 
+## :kubernetes: Deployment WebApp in Kubernetes Cluster
+
+* Reference that Google provided a sample web app to simulates a bank's payment.
+
+[![Sample App](https://img.shields.io/badge/Sample%20App-Bank%20of%20Anthos-blue?style=flat-square&logo=github)](https://github.com/GoogleCloudPlatform/bank-of-anthos)
 
